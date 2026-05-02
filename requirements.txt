@@ -1,0 +1,13 @@
+# data and finance
+pandas
+numpy
+yfinance
+
+# API and network
+requests
+websockets
+python-telegram-bot
+tenacity
+
+# config
+python-dotenv
