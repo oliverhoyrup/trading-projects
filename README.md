@@ -2,7 +2,7 @@
 
 Hi there! This is my small collection of Python-based bots / models designed for market monitoring, sentiment analysis, and strategy execution. 3 of the files integrate with Telegram to provide real-time alerts and actionable insights.
 
-## 🛠 Included Bots
+## 🛠 Included Projects
 
 * **Whale Activity Listener**: A real-time monitor for the Hyperliquid exchange. It uses **WebSockets** to track large trades ("Whales") on BTC and ETH, helping to identify significant market moves as they happen.
 * **Machine Learning for Crypto Volatility Forecasting**: Using Random Forests, LSTM and XGBoost to predict volatility for ETH and BTC.
@@ -29,7 +29,7 @@ Hi there! This is my small collection of Python-based bots / models designed for
     ```
 
 ## Whale Activity Listener
-This is a bot that monitors activity on Hyperliquid, a decentralized perpetuals futures trading exchange for cryptocurrency. It is inspired by the enormous short position placed on the exchange minutes before Trump's first tariff-reveal--which had a huge impact on stocks and crypto--that resulted in a +$160 million realized profit just ~an hour after the news. The Whale Listener will notify you on Telegram when unusually large short positions are being placed.
+This is a bot that monitors activity on Hyperliquid, a decentralized perpetuals futures trading exchange for cryptocurrency. It is inspired by the enormous short position placed on the exchange minutes before Trump's tariff-reveal that resulted in a +$160 million realized profit within 24 hours after the news due to the immediate stock and crypto market crash. The Whale Listener will notify you on Telegram when unusually large short positions are being placed.
 
 
 ## Machine Learning for Crypto Volatility Forecasting 
