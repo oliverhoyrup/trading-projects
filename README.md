@@ -5,6 +5,7 @@ A collection of Python-based automated tools designed for market monitoring, sen
 ## 🛠 Included Bots
 
 * **Whale Activity Listener**: A real-time monitor for the Hyperliquid exchange. It uses **WebSockets** to track large trades ("Whales") on BTC and ETH, helping to identify significant market moves as they happen.
+* **Machine Learning for Crypto Volatility Forecasting**: Using Random Forests, LSTM and XGBoost to predict volatility for ETH and BTC.
 * **VIX Buy Signals for S&P 500**: A quantitative strategy bot that monitors market fear via the **VIX Index**. It generates buy signals for the S&P 500 (SPY) when specific volatility thresholds and cooldown periods are met.
 * **Funding Rate Arbitrage**: A specialized tool for identifying funding rate discrepancies on GMX, designed for market-neutral arbitrage strategies.
 
@@ -26,3 +27,12 @@ A collection of Python-based automated tools designed for market monitoring, sen
    TELEGRAM_BOT_TOKEN=your_bot_token_here
    TELEGRAM_CHAT_ID=your_chat_id_here
     ```
+
+## Whale Activity Listener
+
+## Machine Learning for Crypto Volatility Forecasting 
+
+## VIX Buy Signals for S&P 500 
+
+## Funding Rate Arbitrage
+
