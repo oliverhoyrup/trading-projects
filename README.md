@@ -66,7 +66,7 @@ To avoid look-ahead bias, all features were engineered strictly at time $t$ usin
 
 
 ### 3. VIX Systematic Signals for S&P 500 🚨
-This bot sends you a Telegram message when certain fear/greed index criteria have been met, that historically (backtested) outperforms DCA'ing. It is an oversimplified trading strategy on its own, but extending it and pairing it with other sttategies and models can provide useful signals within a broader execution framework.
+This bot sends you a Telegram message when certain VIX (market fear) index criteria have been met, that historically (backtested) outperforms DCA'ing. It is an oversimplified trading strategy on its own, but extending it and pairing it with other sttategies and models can provide useful signals within a broader execution framework.
 
 <details>
 <summary><b>View Strategy Logic & State Management</b></summary>
