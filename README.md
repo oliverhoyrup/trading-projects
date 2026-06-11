@@ -42,7 +42,7 @@ An empirical evaluation of non-linear machine learning architectures against tra
 
 ---
 
-## 📊 Performance Metrics & Comparison
+#### 📊 Performance Metrics & Comparison
 
 Models were trained on 14 months of hourly data and evaluated out-of-sample on a 4-month test window.
 
@@ -55,7 +55,7 @@ Models were trained on 14 months of hourly data and evaluated out-of-sample on a
 
 ---
 
-## 🛠 Feature Engineering & Mathematical Framework
+#### 🛠 Feature Engineering & Mathematical Framework
 
 To avoid look-ahead bias, all features were engineered strictly at time $t$ using vectorized matrix operations. Scalers were fit exclusively on training distributions.
 
@@ -68,7 +68,7 @@ To avoid look-ahead bias, all features were engineered strictly at time $t$ usin
 
 ---
 
-## 🧠 Key Findings & Empirical Insights
+#### 🧠 Key Findings & Empirical Insights
 
 * **XGBoost Superiority:** XGBoost delivered the strongest out-of-sample predictive power, representing an **~18% RMSE improvement over the naive baseline**. Its regularization constraints effectively distributed feature importance across the lag matrix rather than over-relying on $\sigma_t$.
 * **The Volatility Floor:** The naive persistence model achieved an $R^2$ of 0.92, confirming strong volatility clustering (ARCH effects) in high-frequency crypto regimes. All machine learning optimization occurred within the narrow margin above this floor.
