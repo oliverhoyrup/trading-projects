@@ -75,6 +75,8 @@ To avoid look-ahead bias, all features were engineered strictly at time $t$ usin
 * **LSTM Tail Underperformance:** Despite its architectural complexity, the LSTM model underperformed on MAE. Training under standard Mean Squared Error (MSE) loss caused the network to make risk-averse predictions near the conditional mean, systematically undershooting volatility spikes.
 * **Feature Signality:** MDI feature importance charts confirmed that `vol_lag_1` dominates model decisions, matching classic GARCH(1,1) behavior. The Garman-Klass estimator provided incremental predictive signal at high frequencies.
 
+---
+
 ### 3. VIX Systematic Signals for S&P 500
 This bot sends you a Telegram message when certain criteria have been met, that historically (backtested) outperforms DCA'ing.
 It is obviously a very flawed strategy but was fun to make nonetheless.
