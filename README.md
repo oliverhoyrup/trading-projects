@@ -2,18 +2,6 @@
 
 A collection of systematic trading tools, event-driven pipelines, and predictive models focused on digital assets and equity derivatives.
 
-## 🛠 Portfolio Overview
-
-| Project | Core Tech Stack | Architectural Focus |
-| :--- | :--- | :--- |
-| **Whale Activity Listener** | Asyncio, WebSockets, Tenacity, Pandas, Python-Telegram-Bot | Event-Driven Streaming, Hybrid Failover ETL, Fault Tolerance |
-| **Crypto Volatility Forecasting** | TensorFlow, XGBoost, Scikit-Learn, NumPy, YFinance | Non-Linear Time-Series ML, Multi-Lag Feature Engineering |
-| **VIX Systematic Signals** | Pandas, YFinance, Requests, State Serialization (JSON) | Persistent State Management, Rolling Matrix Math, Automation |
-| **Funding Rate Arbitrage Bot** | REST APIs, Vectorized Math, Multi-Endpoint Rotators | Delta-Neutral Yield Optimization, Network Redundancy |
-| **Energy Forecasting (Upcoming)** |
-
----
-
 ### 1. Whale Activity Listener 🐳
 This is a bot that monitors activity on Hyperliquid, a decentralized perpetual futures exchange for cryptocurrency. It is inspired by the enormous short position placed on the exchange minutes before Trump's tariff-reveal that resulted in a +$160 million realized profit within 24 hours after the news due to the immediate stock and crypto market crash. The Whale Listener will notify you on Telegram when unusually large short positions are being placed.
 
@@ -108,7 +96,17 @@ Identifies structural capital inefficiencies across 130+ perpetual asset markets
 ---
 
 
+## 🛠 Portfolio Overview
 
+| Project | Core Tech Stack | Architectural Focus |
+| :--- | :--- | :--- |
+| **Whale Activity Listener** | Asyncio, WebSockets, Tenacity, Pandas, Python-Telegram-Bot | Event-Driven Streaming, Hybrid Failover ETL, Fault Tolerance |
+| **Crypto Volatility Forecasting** | TensorFlow, XGBoost, Scikit-Learn, NumPy, YFinance | Non-Linear Time-Series ML, Multi-Lag Feature Engineering |
+| **VIX Systematic Signals** | Pandas, YFinance, Requests, State Serialization (JSON) | Persistent State Management, Rolling Matrix Math, Automation |
+| **Funding Rate Arbitrage Bot** | REST APIs, Vectorized Math, Multi-Endpoint Rotators | Delta-Neutral Yield Optimization, Network Redundancy |
+| **Energy Forecasting (Upcoming)** |
+
+---
 
 
 
