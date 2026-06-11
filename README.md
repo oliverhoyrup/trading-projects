@@ -14,7 +14,7 @@ A collection of systematic trading tools, event-driven pipelines, and predictive
 
 ---
 
-### 1. Whale Activity Listener (Hyperliquid Perpetual Markets)
+### 1. Whale Activity Listener (Hyperliquid Perpetual Markets) 🐳
 This is a bot that monitors activity on Hyperliquid, a decentralized perpetuals futures trading exchange for cryptocurrency. It is inspired by the enormous short position placed on the exchange minutes before Trump's tariff-reveal that resulted in a +$160 million realized profit within 24 hours after the news due to the immediate stock and crypto market crash. The Whale Listener will notify you on Telegram when unusually large short positions are being placed.
 
 <details>
@@ -31,7 +31,7 @@ Captures order-flow toxicity, institutional positioning, and anomalous block tra
 </details>
 
 
-### 2. Machine Learning for Crypto Volatility Forecasting
+### 2. Machine Learning for Crypto Volatility Forecasting 🦾
 This is a code i wrote while at Humboldt-Universität zu Berlin. I was interested in trying out different machine learning models to forecast the volatility of BTC and ETH and see which model performed the best. XGBoost slightly outperformed LSTM and Random Forest. Predicting volatility is interesting since it can be used for risk management, hedging strategies and open up for options arbitrage opportunities if our models can predict volatility better than the market (implied volatility). 
 
 <details>
@@ -77,7 +77,7 @@ To avoid look-ahead bias, all features were engineered strictly at time $t$ usin
 </details>
 
 
-### 3. VIX Systematic Signals for S&P 500
+### 3. VIX Systematic Signals for S&P 500 🚨
 This bot sends you a Telegram message when certain fear/greed index criteria have been met, that historically (backtested) outperforms DCA'ing. It is an oversimplified trading strategy on its own, but extending it and pairing it with other sttategies and models can provide useful signals within a broader execution framework.
 
 <details>
@@ -91,8 +91,8 @@ A programmatic systematic mean-reversion execution system designed to capture eq
 * **Vectorized Matrix Slicing:** Employs vectorized rolling window analysis via `pandas` to isolate volatility distributions, calculating 21-day moving averages and rolling minima bounds concurrently to avoid unoptimized row-wise iterative loops.
 </details>
 
-### 4. Funding Rate Arbitrage (GMX Architecture)
-This bot tracks the funding rate of 134 different coins on the perpetual futures exchange GMX and gives daily summaries of top-performing tokens (that has met certain volume criteria) in order to gather data and see which tokens are best suited for this strategy. The idea is then to open a short position of x token with x as colleteral creating a delta-neutral position that accumulates profit on the funding rate alone. Telegram notifications will update you on funding rates turning negative for longer periods of time (and back to positive) as well as the daily summary.
+### 4. Funding Rate Arbitrage 🏦
+This bot tracks the funding rates of 134 different digital assets (tokens) on the GMX perpetual futures exchange and gives daily summaries of top-performing tokens (that has met certain volume criteria) in order to gather data and see which tokens are best suited for this strategy. The idea is then to open a short position of x token with x as colleteral creating a delta-neutral position that accumulates profit on the funding rate alone. Telegram notifications will update you on funding rates turning negative for longer periods of time (and back to positive) as well as the daily summary.
 
 <details>
 <summary><b>View Data Pipeline & Arbitrage Mechanics</b></summary>
