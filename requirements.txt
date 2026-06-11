@@ -1,13 +1,18 @@
-# data and finance
-pandas
-numpy
-yfinance
+# Data and Quantitative Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+yfinance>=0.2.40
 
-# API and network
-requests
-websockets
-python-telegram-bot
-tenacity
+# Machine Learning and Deep Learning
+tensorflow>=2.13.0
+xgboost>=2.0.0
+scikit-learn>=1.3.0
 
-# config
-python-dotenv
+# API, Networking, and Streams
+requests>=2.31.0
+websockets>=11.0
+python-telegram-bot>=20.0
+tenacity>=8.2.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
