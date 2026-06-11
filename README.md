@@ -14,8 +14,8 @@ A collection of systematic trading tools, event-driven pipelines, and predictive
 
 ---
 
-### 1. Whale Activity Listener (Hyperliquid Perpetual Markets) 🐳
-This is a bot that monitors activity on Hyperliquid, a decentralized perpetuals futures trading exchange for cryptocurrency. It is inspired by the enormous short position placed on the exchange minutes before Trump's tariff-reveal that resulted in a +$160 million realized profit within 24 hours after the news due to the immediate stock and crypto market crash. The Whale Listener will notify you on Telegram when unusually large short positions are being placed.
+### 1. Whale Activity Listener 🐳
+This is a bot that monitors activity on Hyperliquid, a decentralized perpetual futures exchange for cryptocurrency. It is inspired by the enormous short position placed on the exchange minutes before Trump's tariff-reveal that resulted in a +$160 million realized profit within 24 hours after the news due to the immediate stock and crypto market crash. The Whale Listener will notify you on Telegram when unusually large short positions are being placed.
 
 <details>
 <summary><b>View Technical Details & Infrastructure Architecture</b></summary>
